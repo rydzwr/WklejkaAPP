@@ -1,0 +1,31 @@
+<div class="body">
+  <a routerLink="/home">
+    <ion-icon
+      [name]="activePage === 'home' ? 'home' : 'home-outline'"
+    ></ion-icon>
+  </a>
+
+  <a routerLink="/profile">
+    <ion-icon
+      [name]="activePage === 'profile' ? 'person' : 'person-outline'"
+    ></ion-icon>
+  </a>
+
+  <a routerLink="/add">
+    <ion-icon
+      [name]="activePage === 'add' ? 'add-circle' : 'add-circle-outline'"
+    ></ion-icon>
+  </a>
+
+  <a routerLink="/communicator">
+    <ion-icon
+      [name]="activePage === 'communicator' ? 'chatbubble' : 'chatbubble-outline'"
+    ></ion-icon>
+  </a>
+
+  <a routerLink="/settings">
+    <ion-icon
+      [name]="activePage === 'settings' ? 'settings' : 'settings-outline'"
+    ></ion-icon>
+  </a>
+</div>

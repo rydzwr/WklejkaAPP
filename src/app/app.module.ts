@@ -10,6 +10,9 @@ import { SettingsComponent } from './settings/settings.component';
 import { AddComponent } from './add/add.component';
 import { ProfileComponent } from './profile/profile.component';
 import { CommunicatorComponent } from './communicator/communicator.component';
+import { MapComponent } from './map/map.component';
+import { UploadComponent } from './upload/upload.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,11 +22,14 @@ import { CommunicatorComponent } from './communicator/communicator.component';
     SettingsComponent,
     AddComponent,
     ProfileComponent,
-    CommunicatorComponent
+    CommunicatorComponent,
+    MapComponent,
+    UploadComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
     IonicModule.forRoot()
   ],
   providers: [],

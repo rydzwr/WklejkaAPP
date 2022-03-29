@@ -1,0 +1,5 @@
+<div>
+<input type="file" (change)="selectFile($event)">
+</div>
+
+<img *ngFor="let url of urlArray" [src]="url" alt="" width="150" height="100">

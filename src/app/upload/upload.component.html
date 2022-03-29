@@ -1,5 +1,13 @@
-<div>
-<input type="file" (change)="selectFile($event)">
+<div class="file-input">
+  <input class="file" type="file" id="file" accept="image/*" (change)="selectFile($event)" />
+  <label for="file">Select Photos</label>
 </div>
-
-<img *ngFor="let url of urlArray" [src]="url" alt="" width="150" height="100">
+<div class="photos">
+  <img
+    *ngFor="let url of urlArray"
+    [src]="url"
+    alt=""
+    width="150"
+    height="100"
+  />
+</div>

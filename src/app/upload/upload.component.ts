@@ -3,14 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-upload',
   templateUrl: './upload.component.html',
-  styleUrls: ['./upload.component.css']
+  styleUrls: ['./upload.component.css'],
 })
 export class UploadComponent implements OnInit {
-
   url = null;
   urlArray = new Array();
+  fullArray = false;
 
-  constructor() { }
+  constructor() {}
 
   selectFile(event: any) {
     for (let index = 0; index < event.target.files.length; index++) {
@@ -19,13 +19,15 @@ export class UploadComponent implements OnInit {
         reader.readAsDataURL(event.target.files[index]);
         reader.onload = (event: any) => {
           this.url = event.target.result;
-          this.urlArray.push(this.url);
-        }
+          if (this.urlArray.length > 1) {
+            this.urlArray[1] = this.url;
+          } else {
+            this.urlArray.push(this.url);
+          }
+        };
       }
     }
   }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

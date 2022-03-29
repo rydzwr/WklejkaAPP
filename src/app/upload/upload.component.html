@@ -8,6 +8,6 @@
   />
   <label for="file">Select Photos</label>
   <div class="photos">
-    <img *ngFor="let url of urlArray" [hidden]="urlArray[2]" [src]="url" alt="" width="150" height="100"/>
+    <img class="image" *ngFor="let url of urlArray" [src]="url" alt=""/>
   </div>
 </div>

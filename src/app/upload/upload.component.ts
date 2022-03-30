@@ -6,16 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./upload.component.css'],
 })
 export class UploadComponent implements OnInit {
-  url = null;
+  url = undefined;
   urlArray = new Array();
   fullArray = false;
 
   constructor() {}
 
   selectFile(event: any) {
-    for (let index = 0; index < event.target.files.length; index++) {
-      if (event.target.files) {
-        var reader = new FileReader();
+    if (event.target.files) {
+      for (let index = 0; index < event.target.files.length; index++) {
+        const reader = new FileReader();
         reader.readAsDataURL(event.target.files[index]);
         reader.onload = (event: any) => {
           this.url = event.target.result;

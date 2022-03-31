@@ -134,7 +134,7 @@
   color: rgb(228, 228, 228);
   background: none;
   margin: auto;
-  font-size: 30px;
+  font-size: 25px;
   font-family: sans-serif;
   font-weight: bold;
 }
@@ -152,7 +152,7 @@
 }
 
 .ended-text {
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(228, 228, 228);
 }
 
@@ -176,7 +176,7 @@
 }
 
 .pending-text {
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(228, 228, 228);
 }
 
@@ -202,7 +202,7 @@
   color: rgb(228, 228, 228);
   background: none;
   margin: auto;
-  font-size: 30px;
+  font-size: 25px;
   font-family: sans-serif;
   font-weight: bold;
 }
@@ -220,7 +220,7 @@
 }
 
 .help-text {
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(228, 228, 228);
 }
 
@@ -237,7 +237,7 @@
 }
 
 .regulations-text {
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(228, 228, 228);
 }
 
@@ -254,7 +254,7 @@
 }
 
 .about-text {
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(228, 228, 228);
 }
 

@@ -139,10 +139,10 @@
   border: solid 1px black;
   border-radius: 5px;
   width: 340px;
-  height: 25px;
+  height: 35px;
   position: absolute;
   left: 50%;
-  top: 670px;
+  top: 675px;
   transform: translate(-50%, -50%);
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
   box-sizing: border-box;
@@ -159,7 +159,7 @@
   height: 120px;
   position: absolute;
   left: 50%;
-  top: 735px;
+  top: 745px;
   transform: translate(-50%, -50%);
   font-size: 1.4vh;
   color: rgb(168, 168, 168);
@@ -169,10 +169,10 @@
   border: solid 1px black;
   border-radius: 5px;
   width: 340px;
-  height: 25px;
+  height: 35px;
   position: absolute;
   left: 50%;
-  top: 720px;
+  top: 735px;
   transform: translate(-50%, -50%);
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
   box-sizing: border-box;
@@ -189,7 +189,7 @@
   height: 120px;
   position: absolute;
   left: 50%;
-  top: 785px;
+  top: 805px;
   transform: translate(-50%, -50%);
   font-size: 1.4vh;
   color: rgb(168, 168, 168);
@@ -199,10 +199,10 @@
   border: solid 1px black;
   border-radius: 5px;
   width: 340px;
-  height: 25px;
+  height: 35px;
   position: absolute;
   left: 50%;
-  top: 770px;
+  top: 795px;
   transform: translate(-50%, -50%);
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
   box-sizing: border-box;
@@ -232,7 +232,7 @@ textarea {
   cursor: pointer;
   position: absolute;
   left: 50%;
-  top: 810px;
+  top: 840px;
   transform: translate(-50%, -50%);
 }
 

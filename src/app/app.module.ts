@@ -11,9 +11,8 @@ import { AddComponent } from './add/add.component';
 import { ProfileComponent } from './profile/profile.component';
 import { CommunicatorComponent } from './communicator/communicator.component';
 import { MapComponent } from './map/map.component';
-import { UploadComponent } from './upload/upload.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { DescriptionComponent } from './description/description.component';
+import { PostAddingFormComponent } from './post-adding-form/post-adding-form.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +24,7 @@ import { DescriptionComponent } from './description/description.component';
     ProfileComponent,
     CommunicatorComponent,
     MapComponent,
-    UploadComponent,
-    DescriptionComponent
+    PostAddingFormComponent
   ],
   imports: [
     BrowserModule,

@@ -1,11 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-upload',
-  templateUrl: './upload.component.html',
-  styleUrls: ['./upload.component.css'],
+  selector: 'app-post-adding-form',
+  templateUrl: './post-adding-form.component.html',
+  styleUrls: ['./post-adding-form.component.css'],
 })
-export class UploadComponent implements OnInit {
+export class PostAddingFormComponent implements OnInit {
+
   url = undefined;
   urlArray = new Array();
   fullArray = false;
@@ -30,4 +31,5 @@ export class UploadComponent implements OnInit {
   }
 
   ngOnInit(): void {}
+
 }

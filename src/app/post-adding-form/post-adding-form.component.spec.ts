@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { DescriptionComponent } from './description.component';
+import { PostAddingFormComponent } from './post-adding-form.component';
 
-describe('DescriptionComponent', () => {
-  let component: DescriptionComponent;
-  let fixture: ComponentFixture<DescriptionComponent>;
+describe('PostAddingFormComponent', () => {
+  let component: PostAddingFormComponent;
+  let fixture: ComponentFixture<PostAddingFormComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ DescriptionComponent ],
+      declarations: [ PostAddingFormComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(DescriptionComponent);
+    fixture = TestBed.createComponent(PostAddingFormComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

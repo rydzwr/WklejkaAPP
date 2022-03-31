@@ -1,0 +1,44 @@
+<div class="file-input">
+  <input
+    class="file"
+    type="file"
+    id="file"
+    accept=".png, .jpg, .jpeg"
+    (change)="selectFile($event)"
+  />
+  <label for="file"> <p class="select-photos">Select Photos</p></label>
+  <div class="photos">
+    <img class="image" *ngFor="let url of urlArray" [src]="url" alt="" />
+  </div>
+</div>
+
+<textarea
+  class="text-area"
+  placeholder="Enter short description..."
+  maxlength="1000"
+></textarea>
+
+<button><div class="get-location-button"><p class="get-location">Get Location</p></div></button>
+<div class="map"></div>
+
+<p class="name">*Enter Name:</p>
+<textarea
+  class="name-area"
+  maxlength="20"
+></textarea>
+
+<p class="email">*Enter Email:</p>
+<textarea
+  class="email-area"
+  maxlength="20"
+></textarea>
+
+<p class="phone">*Enter Phone Number:</p>
+<textarea
+  class="phone-area"
+  maxlength="15"
+></textarea>
+
+
+
+

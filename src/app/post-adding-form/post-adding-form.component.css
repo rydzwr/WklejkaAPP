@@ -1,0 +1,217 @@
+.file {
+  opacity: 0;
+  width: 0.1px;
+  height: 0.1px;
+  position: absolute;
+}
+
+.file-input label {
+  display: block;
+  position: relative;
+  width: 150px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: rgb(59, 30, 85);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(228, 228, 228);
+  cursor: pointer;
+}
+
+.select-photos {
+  background-color: rgb(59, 30, 85);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.photos {
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 340px;
+  height: 120px;
+  position: absolute;
+  display: flex;
+  left: 50%;
+  top: 100px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+}
+
+.image {
+  min-height: 100px;
+  min-width: 150px;
+  max-height: 100px;
+  max-width: 150px;
+  margin: 10px;
+}
+
+.text-area {
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 340px;
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  top: 230px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  resize: none;
+  outline: none;
+}
+
+.text-area::-webkit-scrollbar {
+  width: 10px;
+}
+
+.text-area::-webkit-scrollbar-track {
+  background-color: darkgrey;
+}
+
+.text-area::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.text-area {
+  scrollbar-width: thin;
+}
+
+.text-area {
+  scrollbar-color: #6969dd #e0e0e0;
+  scrollbar-width: thin;
+}
+
+.map {
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 340px;
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  top: 400px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+}
+
+.get-location-button {
+  width: 130px;
+  height: 30px;
+  border-radius: 25px;
+  background-color: rgb(59, 30, 85);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  color: rgb(228, 228, 228);
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 315px;
+  transform: translate(-50%, -50%);
+}
+
+.get-location {
+  background-color: rgb(59, 30, 85);
+  margin: auto;
+}
+
+.name {
+  width: 340px;
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  top: 515px;
+  transform: translate(-50%, -50%);
+  font-size: 1.4vh;
+  color: rgb(168, 168, 168);
+}
+
+.name-area {
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 340px;
+  height: 25px;
+  position: absolute;
+  left: 50%;
+  top: 500px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  resize: none;
+  outline: none;
+}
+
+.name-area::-webkit-scrollbar {
+  opacity: 0;
+}
+
+.email {
+  width: 340px;
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  top: 565px;
+  transform: translate(-50%, -50%);
+  font-size: 1.4vh;
+  color: rgb(168, 168, 168);
+}
+
+.email-area {
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 340px;
+  height: 25px;
+  position: absolute;
+  left: 50%;
+  top: 550px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  resize: none;
+  outline: none;
+}
+
+.email-area::-webkit-scrollbar {
+  opacity: 0;
+}
+
+.phone {
+  width: 340px;
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  top: 615px;
+  transform: translate(-50%, -50%);
+  font-size: 1.4vh;
+  color: rgb(168, 168, 168);
+}
+
+.phone-area {
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 340px;
+  height: 25px;
+  position: absolute;
+  left: 50%;
+  top: 600px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  box-sizing: border-box;
+  resize: none;
+  outline: none;
+}
+
+.phone-area::-webkit-scrollbar {
+  opacity: 0;
+}
+
+textarea {
+  color: rgb(168, 168, 168);
+}
+
+
+

@@ -4,7 +4,7 @@
   z-index: 999;
   display: flex;
   width: 100%;
-  height: 7%;
+  height: 60px;
   background-color: #1a1b1d;
   justify-content: space-between;
   align-items: center;
@@ -40,6 +40,14 @@ ion-icon
   top: 8%;
   justify-content: center;
   display: flex;
+  scroll-behavior: smooth;
+  overflow: auto;
+  min-height: calc(100% - 130px);
+  max-height: calc(100% - 130px);
+}
+
+.content::-webkit-scrollbar {
+  width: 0;
 }
 
 app-description {

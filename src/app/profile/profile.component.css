@@ -1,36 +1,286 @@
-.header {
-  position: fixed;
-  top: 0%;
-  z-index: 999;
-  display: flex;
+.content {
   width: 100%;
-  height: 7%;
-  background-color: #1a1b1d;
+  height: calc(100% - 70px);
+}
+
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  left: 15px;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  background-color: rgb(59, 30, 85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-nickname-letter {
+  background: none;
+  position: absolute;
+  font-size: 50px;
+  color: rgb(228, 228, 228);
+}
+
+.names {
+  position: absolute;
+  left: 140px;
+  color: rgb(228, 228, 228);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  top: 10px;
+}
+
+.nickname {
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+}
+
+.full-name {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+}
+
+.location {
+  width: 210px;
+  height: 40px;
+  position: absolute;
+  background: none;
+  color: rgb(228, 228, 228);
+  left: 15px;
+  top: 130px;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 4%;
-  padding-right: 4%;
+  border-bottom: 2px #1a1a1b solid;
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
 }
 
-h1 {
-  display: block;
-  transform: translate(0, -10%);
-  font-size: 1.8em;
+.location-icon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  background: none;
   color: rgb(228, 228, 228);
-  z-index: 999;
-  background-color: #1a1b1d;
 }
 
-a {
-  display: block;
-  line-height: 50%;
-  font-size: 1.5em;
+.city {
+  position: absolute;
+  background: none;
   color: rgb(228, 228, 228);
+  left: 30px;
+  font-size: 16px;
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+}
+
+.border-one {
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  top: 180px;
   background-color: #1a1b1d;
 }
 
-ion-icon
-{
+.your-cars-button {
+  width: 340px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: rgb(59, 30, 85);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 215px;
+  transform: translate(-50%, -50%);
+}
+
+.your-cars-text {
+  color: rgb(228, 228, 228);
+  background: none;
+  margin: auto;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.border-two {
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  top: 245px;
   background-color: #1a1b1d;
 }
+
+.your-posts {
+  position: absolute;
+  width: 170px;
+  height: 30px;
+  top: 260px;
+  left: 15px;
+  background: none;
+}
+
+.your-posts-text {
+  position: absolute;
+  color: rgb(228, 228, 228);
+  background: none;
+  margin: auto;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.ended-posts {
+  width: calc(100% - 25px);
+  height: 45px;
+  position: absolute;
+  top: 305px;
+  left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #1a1a1b 2px solid;
+}
+
+.ended-text {
+  font-size: 25px;
+  color: rgb(228, 228, 228);
+}
+
+.arrow-right {
+  width: 20px;
+  height: 20px;
+  right: 15px;
+  position: relative;
+  color: rgb(228, 228, 228);
+}
+.pending-posts {
+  width: calc(100% - 25px);
+  height: 45px;
+  position: absolute;
+  top: 360px;
+  left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #1a1a1b 2px solid;
+}
+
+.pending-text {
+  font-size: 25px;
+  color: rgb(228, 228, 228);
+}
+
+.border-three {
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  top: 415px;
+  background-color: #1a1b1d;
+}
+
+.information {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  top: 430px;
+  left: 15px;
+  background: none;
+}
+
+.information-text {
+  position: absolute;
+  color: rgb(228, 228, 228);
+  background: none;
+  margin: auto;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.help {
+  width: calc(100% - 25px);
+  height: 45px;
+  position: absolute;
+  top: 475px;
+  left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #1a1a1b 2px solid;
+}
+
+.help-text {
+  font-size: 25px;
+  color: rgb(228, 228, 228);
+}
+
+.regulations {
+  width: calc(100% - 25px);
+  height: 45px;
+  position: absolute;
+  top: 530px;
+  left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #1a1a1b 2px solid;
+}
+
+.regulations-text {
+  font-size: 25px;
+  color: rgb(228, 228, 228);
+}
+
+.about {
+  width: calc(100% - 25px);
+  height: 45px;
+  position: absolute;
+  top: 585px;
+  left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #1a1a1b 2px solid;
+}
+
+.about-text {
+  font-size: 25px;
+  color: rgb(228, 228, 228);
+}
+
+.log-out-button {
+  width: 340px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: rgb(59, 30, 85);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 660px;
+  transform: translate(-50%, -50%);
+}
+
+.log-out-text {
+  color: rgb(228, 228, 228);
+  background: none;
+  margin: auto;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
 

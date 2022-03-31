@@ -8,9 +8,9 @@
 .file-input label {
   display: block;
   position: relative;
-  width: 150px;
+  width: 340px;
   height: 30px;
-  border-radius: 25px;
+  border-radius: 4px;
   background-color: rgb(59, 30, 85);
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
   display: flex;
@@ -18,12 +18,14 @@
   justify-content: center;
   color: rgb(228, 228, 228);
   cursor: pointer;
+  top: 5px;
 }
 
 .select-photos {
   background-color: rgb(59, 30, 85);
   font-size: 14px;
   font-weight: bold;
+  font-family: sans-serif;
 }
 
 .photos {
@@ -87,19 +89,19 @@
   border: solid 1px black;
   border-radius: 5px;
   width: 340px;
-  height: 120px;
+  height: 290px;
   position: absolute;
   left: 50%;
-  top: 400px;
+  top: 485px;
   transform: translate(-50%, -50%);
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
   box-sizing: border-box;
 }
 
 .get-location-button {
-  width: 130px;
+  width: 340px;
   height: 30px;
-  border-radius: 25px;
+  border-radius: 4px;
   background-color: rgb(59, 30, 85);
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
   text-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
@@ -117,6 +119,9 @@
 .get-location {
   background-color: rgb(59, 30, 85);
   margin: auto;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
 .name {
@@ -124,7 +129,7 @@
   height: 120px;
   position: absolute;
   left: 50%;
-  top: 515px;
+  top: 685px;
   transform: translate(-50%, -50%);
   font-size: 1.4vh;
   color: rgb(168, 168, 168);
@@ -137,7 +142,7 @@
   height: 25px;
   position: absolute;
   left: 50%;
-  top: 500px;
+  top: 670px;
   transform: translate(-50%, -50%);
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
   box-sizing: border-box;
@@ -154,7 +159,7 @@
   height: 120px;
   position: absolute;
   left: 50%;
-  top: 565px;
+  top: 735px;
   transform: translate(-50%, -50%);
   font-size: 1.4vh;
   color: rgb(168, 168, 168);
@@ -167,7 +172,7 @@
   height: 25px;
   position: absolute;
   left: 50%;
-  top: 550px;
+  top: 720px;
   transform: translate(-50%, -50%);
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
   box-sizing: border-box;
@@ -184,7 +189,7 @@
   height: 120px;
   position: absolute;
   left: 50%;
-  top: 615px;
+  top: 785px;
   transform: translate(-50%, -50%);
   font-size: 1.4vh;
   color: rgb(168, 168, 168);
@@ -197,7 +202,7 @@
   height: 25px;
   position: absolute;
   left: 50%;
-  top: 600px;
+  top: 770px;
   transform: translate(-50%, -50%);
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
   box-sizing: border-box;
@@ -211,6 +216,32 @@
 
 textarea {
   color: rgb(168, 168, 168);
+}
+
+.add-post-button {
+  width: 340px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: rgb(59, 30, 85);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  color: rgb(228, 228, 228);
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 810px;
+  transform: translate(-50%, -50%);
+}
+
+.add-post-button-text {
+  background-color: rgb(59, 30, 85);
+  margin: auto;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
 

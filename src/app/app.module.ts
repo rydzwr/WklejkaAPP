@@ -13,6 +13,7 @@ import { CommunicatorComponent } from './communicator/communicator.component';
 import { MapComponent } from './map/map.component';
 import { UploadComponent } from './upload/upload.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DescriptionComponent } from './description/description.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     ProfileComponent,
     CommunicatorComponent,
     MapComponent,
-    UploadComponent
+    UploadComponent,
+    DescriptionComponent
   ],
   imports: [
     BrowserModule,

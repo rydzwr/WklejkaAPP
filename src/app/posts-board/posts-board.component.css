@@ -1,0 +1,123 @@
+.content {
+  scroll-behavior: smooth;
+  overflow: auto;
+  min-height: 1000px;
+  max-height: 1000px;
+  position: relative;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.content::-webkit-scrollbar {
+  width: 0;
+}
+
+.content {
+  background-color: #1a1b1d;
+}
+
+li {
+  list-style: none;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  top: 100px;
+  background-color: #1a1b1d;
+}
+
+.post {
+  margin-top: 10px;
+  width: 100%;
+  height: 600px;
+  border: 0.2px solid rgb(49, 49, 49);
+  border-radius: 10px;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  background-color: rgb(59, 30, 85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-nickname-letter {
+  background: none;
+  position: absolute;
+  font-size: 20px;
+  color: rgb(228, 228, 228);
+}
+
+.data {
+  position: absolute;
+  left: 80px;
+  color: rgb(228, 228, 228);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  top: 10px;
+}
+
+.full-name {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  top: 0px;
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+}
+
+.time {
+  width: 40px;
+  height: 25px;
+  display: flex;
+}
+
+.time-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  background: none;
+}
+
+.hours-count {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  bottom: 4px;
+  left: 5px;
+  background: none;
+}
+
+.get-location-button {
+  width: 340px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: rgb(59, 30, 85);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  color: rgb(228, 228, 228);
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, -50%);
+}
+
+.get-location-text {
+  background-color: rgb(59, 30, 85);
+  margin: auto;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: sans-serif;
+}

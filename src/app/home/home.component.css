@@ -1,36 +1,87 @@
 .header {
-  position: fixed;
-  top: 0%;
+  position: absolute;
+  top: 0;
   z-index: 999;
   display: flex;
   width: 100%;
-  height: 7%;
+  height: 100px;
   background-color: #1a1b1d;
   justify-content: space-between;
   align-items: center;
-  padding-left: 4%;
-  padding-right: 4%;
 }
 
-h1 {
+.content {
+  background-color: #1a1b1d;
+}
+
+.header-navbar {
+  width: calc(100% - 25px);
+  height: 55px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1b1d;
+  border-bottom: #919191 0.5px solid;
+}
+
+.home {
   display: block;
-  transform: translate(0, -10%);
   font-size: 1.8em;
   color: rgb(228, 228, 228);
   z-index: 999;
   background-color: #1a1b1d;
 }
 
-a {
-  display: block;
-  line-height: 50%;
-  font-size: 1.5em;
+.location-navbar {
+  width: calc(100% - 25px);
+  height: 55px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+}
+
+.new-posts {
+  position: relative;
+  top: 35px;
+  font-size: 20px;
   color: rgb(228, 228, 228);
-  background-color: #1a1b1d;
+  background: none;
 }
 
-ion-icon
-{
+.change-location-button {
+  position: relative;
+  width: 150px;
+  height: 30px;
+  top: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #1a1b1d;
+  border-bottom: #919191 solid 0.5px;
 }
 
+.location-icon {
+  width: 20px;
+  height: 20px;
+  color: rgb(228, 228, 228);
+  background: none;
+}
+
+.location-text {
+  font-size: 14px;
+  color: rgb(228, 228, 228);
+  background: none;
+}
+
+.range-text {
+  font-size: 14px;
+  color: rgb(228, 228, 228);
+  background: none;
+}

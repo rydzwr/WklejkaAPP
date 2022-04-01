@@ -13,6 +13,7 @@ import { CommunicatorComponent } from './communicator/communicator.component';
 import { MapComponent } from './map/map.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { PostAddingFormComponent } from './post-adding-form/post-adding-form.component';
+import { PostsBoardComponent } from './posts-board/posts-board.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PostAddingFormComponent } from './post-adding-form/post-adding-form.com
     ProfileComponent,
     CommunicatorComponent,
     MapComponent,
-    PostAddingFormComponent
+    PostAddingFormComponent,
+    PostsBoardComponent
   ],
   imports: [
     BrowserModule,

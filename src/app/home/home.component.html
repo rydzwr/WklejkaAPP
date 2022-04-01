@@ -1,10 +1,21 @@
 <div class="header">
-  <h1>Home</h1>
-  <a routerLink="/settings">
-    <ion-icon name="settings-outline"></ion-icon>
-  </a>
+  <div class="header-navbar">
+    <h1 class="home">Home</h1>
+  </div>
+
+  <div class="location-navbar">
+    <h1 class="new-posts">New Posts</h1>
+    <button class="change-location-button">
+      <ion-icon class="location-icon" name="location-outline"></ion-icon>
+      <p class="location-text">Location</p>
+      <p class="range-text">+200km</p>
+    </button>
+  </div>
 </div>
-<div class="content"></div>
+
+<div class="content">
+  <app-posts-board></app-posts-board>
+</div>
 <footer class="footer">
   <app-navbar></app-navbar>
 </footer>
